@@ -118,6 +118,9 @@ body {
 .align-l {text-align: left !important;}
 .align-r {text-align: right !important;}
 
+.ls1 {letter-spacing: -1.2px !important;}
+.ls2 {letter-spacing: -1.4px !important;}
+
 /* 타이틀 */
 .h-tit1 {
 	font-size:56px;
@@ -462,12 +465,16 @@ body {
 }
 
 .dream-item {
+	margin:0 9px;
+
+}
+
+.dream-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width:190px;
 	height:103px;
-	margin:0 9px;
 	background: url('../img/dream-list-bg.png') no-repeat;
 	font-size:28px;
 	color:#0a2934;
@@ -688,7 +695,7 @@ body {
 
 .preocess-period {
 	margin-top:20px;
-	font-size:25px;
+	font-size:24px;
 	letter-spacing: -1.5px;
 }
 
