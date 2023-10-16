@@ -177,6 +177,7 @@ body {
 	padding-left:16px;
 	font-size:27px;
 	color:#000;
+	letter-spacing: -1px;
 }
 
 .bullet-dot > li::before {
@@ -210,16 +211,17 @@ body {
 .table tbody th {
 	padding:20px 0;
 	border-top:1px solid #d5d5d5;
-	font-size:23px;
+	font-size:22px;
 	color:#010101;
 	font-weight:400;
+	letter-spacing: -1px;
 }
 
 .table tbody td {
-	padding:20px;
+	padding:20px 10px 20px 18px;
 	border-left:1px solid #d5d5d5;
 	border-top:1px solid #d5d5d5;
-	font-size:23px;
+	font-size:22px;
 	color:#010101;
 }
 
@@ -244,7 +246,7 @@ body {
 
 .table .bullet-dot > li {
 	padding-left:10px;
-	font-size:23px;
+	font-size:22px;
 	color:#3e3e3e;
 }
 
@@ -583,6 +585,10 @@ body {
 	width:237px;
 	height: 307px;
 	background: url('../img/apply-bg.png') no-repeat;
+}
+
+.section05 .table tbody td.btn-cell {
+	padding:10px;
 }
 
 .btn-apply {
