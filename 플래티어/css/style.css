@@ -103,6 +103,8 @@ body {
 	font-weight: 400;
 	font-size: 24px;
 	font-family: SCDream, -apple-system, BlinkMacSystemFont, Pretendard, sans-serif;
+	word-break: keep-all;
+    word-wrap: break-word;
 }
 
 
@@ -687,6 +689,7 @@ body {
 .preocess-period {
 	margin-top:20px;
 	font-size:25px;
+	letter-spacing: -1.5px;
 }
 
 .process-box {
