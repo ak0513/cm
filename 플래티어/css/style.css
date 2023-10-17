@@ -233,7 +233,14 @@ body {
 }
 
 .table caption {
-	display: none;
+	padding: 0 !important;
+	margin: 0 !important;
+	overflow: hidden !important;
+	position: absolute !important;
+	border: 0;
+	width: 1px !important;
+	height: 1px !important;
+	clip: rect(1px,1px,1px,1px);
 }
 
 .table thead th {
