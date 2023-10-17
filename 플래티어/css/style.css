@@ -232,6 +232,10 @@ body {
 	border-bottom: 5px solid #00adee;
 }
 
+.table caption {
+	display: none;
+}
+
 .table thead th {
 	padding: 15px;
 	background-color: #00adee;
