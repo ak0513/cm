@@ -229,6 +229,7 @@ body {
 
 /* 테이블 */
 .table table {
+	width: 100%;
 	border-bottom: 5px solid #00adee;
 }
 
